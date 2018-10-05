@@ -3,9 +3,7 @@ import smtplib
 def sendEmail(mailId):
 	server = smtplib.SMTP('smtp.gmail.com', 587)
 	server.starttls()
-	server.login("ff043095@gmail.com", "qaz2ws3c")
-
-	""" sdfg95361@gmail.com , zxcg456q"""
+	server.login("email", "password")
 	 
 	msg = "YOU VIOLATED TRAFFIC RULES!!"
 	

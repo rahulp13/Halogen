@@ -5,9 +5,9 @@ from email.MIMEBase import MIMEBase
 from email import encoders
 
 def sendEmail(toaddr): 
-	fromaddr = "ff043095@gmail.com"
+	fromaddr = "your mail"
 	#toaddr = "99manas99@gmail.com"
-	password = "qaz2ws3c"
+	password = "your password"
 	 
 	msg = MIMEMultipart()
 	 
